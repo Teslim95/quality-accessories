@@ -1,0 +1,1094 @@
+[
+  {
+    "id": 1,
+    "slug": "gold-necklace",
+    "name": "Gold Necklace",
+    "price": 12000,
+    "category": "jewelry",
+    "image": "images/gold-necklace.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 2,
+    "slug": "beautiful-jewelry",
+    "name": "Beautiful Jewelry",
+    "price": 15000,
+    "category": "jewelry",
+    "image": "images/jewelries.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 3,
+    "slug": "fashion-jewelry",
+    "name": "Fashion Jewelry",
+    "price": 10000,
+    "category": "jewelry",
+    "image": "images/jewelry.jpg",
+    "rating": 4,
+    "keywords": []
+  },
+  {
+    "id": 4,
+    "slug": "bracelets",
+    "name": "Bracelets",
+    "price": 8000,
+    "category": "jewelry",
+    "image": "images/bracelets.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 5,
+    "slug": "black-tshirt",
+    "name": "Black T-Shirt",
+    "price": 5000,
+    "category": "clothes",
+    "image": "images/black-tshirt.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 6,
+    "slug": "cardigan",
+    "name": "Cardigan",
+    "price": 10000,
+    "category": "clothes",
+    "image": "images/cardigan.jpg",
+    "rating": 4,
+    "keywords": []
+  },
+  {
+    "id": 7,
+    "slug": "beautiful-dress",
+    "name": "Beautiful Dress",
+    "price": 18000,
+    "category": "clothes",
+    "image": "images/Dresses.jpg.png",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 8,
+    "slug": "gown",
+    "name": "Gown",
+    "price": 20000,
+    "category": "clothes",
+    "image": "images/gawn.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 9,
+    "slug": "shirts",
+    "name": "Shirts",
+    "price": 7000,
+    "category": "clothes",
+    "image": "images/shirts.jpg",
+    "rating": 4,
+    "keywords": []
+  },
+  {
+    "id": 10,
+    "slug": "top-shirt",
+    "name": "Top Shirt",
+    "price": 8500,
+    "category": "clothes",
+    "image": "images/Top-shirt.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 11,
+    "slug": "trousers",
+    "name": "Trousers",
+    "price": 12000,
+    "category": "clothes",
+    "image": "images/trowers.jpg",
+    "rating": 4,
+    "keywords": []
+  },
+  {
+    "id": 12,
+    "slug": "white-top",
+    "name": "White Top",
+    "price": 6500,
+    "category": "clothes",
+    "image": "images/white-top.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 13,
+    "slug": "modern-school-bag",
+    "name": "Modern School Bag",
+    "price": 18000,
+    "category": "bags",
+    "image": "images/Bags.jpg.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 14,
+    "slug": "handbag",
+    "name": "Handbag",
+    "price": 20000,
+    "category": "bags",
+    "image": "images/Handbag.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 15,
+    "slug": "fashion-purse",
+    "name": "Fashion Purse",
+    "price": 12000,
+    "category": "bags",
+    "image": "images/purse.jpg",
+    "rating": 4,
+    "keywords": []
+  },
+  {
+    "id": 16,
+    "slug": "high-shoe",
+    "name": "High Shoe",
+    "price": 15000,
+    "category": "shoes",
+    "image": "images/high-shoe.jpg",
+    "rating": 5,
+    "keywords": []
+  },
+  {
+    "id": 17,
+    "slug": "black-tshirt-2",
+    "name": "Black T-Shirt",
+    "price": 5000,
+    "category": "clothes",
+    "image": "images/black-tshirt-2.jpg",
+    "rating": 5,
+    "keywords": [
+      "black",
+      "t-shirt",
+      "tshirt",
+      "shirt",
+      "clothes"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "white-tshirt-2",
+    "name": "White T-Shirt",
+    "price": 5000,
+    "category": "clothes",
+    "image": "images/white-tshirt-2.jpg",
+    "rating": 5,
+    "keywords": [
+      "white",
+      "t-shirt",
+      "tshirt",
+      "shirt",
+      "clothes"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "polo-shirt",
+    "name": "Polo Shirt",
+    "price": 7000,
+    "category": "clothes",
+    "image": "images/polo-shirt.jpg",
+    "rating": 5,
+    "keywords": [
+      "polo",
+      "shirt",
+      "clothes"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "casual-shirt",
+    "name": "Casual Shirt",
+    "price": 7500,
+    "category": "clothes",
+    "image": "images/casual-shirt.jpg",
+    "rating": 4,
+    "keywords": [
+      "casual",
+      "shirt",
+      "clothes"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "long-sleeve-shirt",
+    "name": "Long-Sleeve Shirt",
+    "price": 8000,
+    "category": "clothes",
+    "image": "images/long-sleeve-shirt.jpg",
+    "rating": 5,
+    "keywords": [
+      "long sleeve",
+      "shirt",
+      "clothes"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "short-sleeve-shirt",
+    "name": "Short-Sleeve Shirt",
+    "price": 7000,
+    "category": "clothes",
+    "image": "images/short-sleeve-shirt.jpg",
+    "rating": 4,
+    "keywords": [
+      "short sleeve",
+      "shirt",
+      "clothes"
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "denim-shirt",
+    "name": "Denim Shirt",
+    "price": 9000,
+    "category": "clothes",
+    "image": "images/denim-shirt.jpg",
+    "rating": 5,
+    "keywords": [
+      "denim",
+      "shirt",
+      "jean",
+      "clothes"
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "casual-top",
+    "name": "Casual Top",
+    "price": 6500,
+    "category": "clothes",
+    "image": "images/casual-top.jpg",
+    "rating": 4,
+    "keywords": [
+      "casual",
+      "top",
+      "clothes"
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "crop-top",
+    "name": "Crop Top",
+    "price": 6000,
+    "category": "clothes",
+    "image": "images/crop-top.jpg",
+    "rating": 5,
+    "keywords": [
+      "crop",
+      "top",
+      "clothes"
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "white-top-2",
+    "name": "White Top",
+    "price": 6500,
+    "category": "clothes",
+    "image": "images/white-top-2.jpg",
+    "rating": 5,
+    "keywords": [
+      "white",
+      "top",
+      "clothes"
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "blouse",
+    "name": "Blouse",
+    "price": 7500,
+    "category": "clothes",
+    "image": "images/blouse.jpg",
+    "rating": 5,
+    "keywords": [
+      "blouse",
+      "top",
+      "women",
+      "clothes"
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "cardigan-2",
+    "name": "Cardigan",
+    "price": 10000,
+    "category": "clothes",
+    "image": "images/cardigan-2.jpg",
+    "rating": 4,
+    "keywords": [
+      "cardigan",
+      "sweater",
+      "clothes"
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "hoodie",
+    "name": "Hoodie",
+    "price": 12000,
+    "category": "clothes",
+    "image": "images/hoodie.jpg",
+    "rating": 5,
+    "keywords": [
+      "hoodie",
+      "sweatshirt",
+      "clothes"
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "sweatshirt",
+    "name": "Sweatshirt",
+    "price": 11000,
+    "category": "clothes",
+    "image": "images/sweatshirt.jpg",
+    "rating": 4,
+    "keywords": [
+      "sweatshirt",
+      "hoodie",
+      "clothes"
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "casual-dress",
+    "name": "Casual Dress",
+    "price": 15000,
+    "category": "clothes",
+    "image": "images/casual-dress.jpg",
+    "rating": 5,
+    "keywords": [
+      "casual",
+      "dress",
+      "women",
+      "clothes"
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "maxi-dress",
+    "name": "Maxi Dress",
+    "price": 18000,
+    "category": "clothes",
+    "image": "images/maxi-dress.jpg",
+    "rating": 5,
+    "keywords": [
+      "maxi",
+      "dress",
+      "women",
+      "clothes"
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "mini-dress",
+    "name": "Mini Dress",
+    "price": 16000,
+    "category": "clothes",
+    "image": "images/mini-dress.jpg",
+    "rating": 5,
+    "keywords": [
+      "mini",
+      "dress",
+      "women",
+      "clothes"
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "bodycon-dress",
+    "name": "Bodycon Dress",
+    "price": 17000,
+    "category": "clothes",
+    "image": "images/bodycon-dress.jpg",
+    "rating": 5,
+    "keywords": [
+      "bodycon",
+      "dress",
+      "women",
+      "clothes"
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "evening-gown",
+    "name": "Evening Gown",
+    "price": 25000,
+    "category": "clothes",
+    "image": "images/evening-gown.jpg",
+    "rating": 5,
+    "keywords": [
+      "evening",
+      "gown",
+      "dress",
+      "women",
+      "clothes"
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "long-gown",
+    "name": "Long Gown",
+    "price": 22000,
+    "category": "clothes",
+    "image": "images/long-gown.jpg",
+    "rating": 5,
+    "keywords": [
+      "long",
+      "gown",
+      "dress",
+      "women",
+      "clothes"
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "two-piece-outfit",
+    "name": "Two-Piece Outfit",
+    "price": 20000,
+    "category": "clothes",
+    "image": "images/two-piece-outfit.jpg",
+    "rating": 5,
+    "keywords": [
+      "two piece",
+      "outfit",
+      "set",
+      "clothes"
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "straight-trousers",
+    "name": "Straight Trousers",
+    "price": 12000,
+    "category": "clothes",
+    "image": "images/straight-trousers.jpg",
+    "rating": 4,
+    "keywords": [
+      "straight",
+      "trousers",
+      "pants",
+      "clothes"
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "wide-leg-trousers",
+    "name": "Wide-Leg Trousers",
+    "price": 13000,
+    "category": "clothes",
+    "image": "images/wide-leg-trousers.jpg",
+    "rating": 5,
+    "keywords": [
+      "wide leg",
+      "trousers",
+      "pants",
+      "clothes"
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "jeans",
+    "name": "Jeans",
+    "price": 15000,
+    "category": "clothes",
+    "image": "images/jeans.jpg",
+    "rating": 5,
+    "keywords": [
+      "jeans",
+      "denim",
+      "trousers",
+      "pants",
+      "clothes"
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "cargo-trousers",
+    "name": "Cargo Trousers",
+    "price": 14000,
+    "category": "clothes",
+    "image": "images/cargo-trousers.jpg",
+    "rating": 5,
+    "keywords": [
+      "cargo",
+      "trousers",
+      "pants",
+      "clothes"
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "shorts",
+    "name": "Shorts",
+    "price": 8000,
+    "category": "clothes",
+    "image": "images/shorts.jpg",
+    "rating": 4,
+    "keywords": [
+      "shorts",
+      "short",
+      "clothes"
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "skirt",
+    "name": "Skirt",
+    "price": 10000,
+    "category": "clothes",
+    "image": "images/skirt.jpg",
+    "rating": 5,
+    "keywords": [
+      "skirt",
+      "clothes"
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "pencil-skirt",
+    "name": "Pencil Skirt",
+    "price": 11000,
+    "category": "clothes",
+    "image": "images/pencil-skirt.jpg",
+    "rating": 5,
+    "keywords": [
+      "pencil",
+      "skirt",
+      "women",
+      "clothes"
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "jumpsuit",
+    "name": "Jumpsuit",
+    "price": 18000,
+    "category": "clothes",
+    "image": "images/jumpsuit.jpg",
+    "rating": 5,
+    "keywords": [
+      "jumpsuit",
+      "outfit",
+      "clothes"
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "traditional-outfit",
+    "name": "Traditional Outfit",
+    "price": 25000,
+    "category": "clothes",
+    "image": "images/traditional-outfit.jpg",
+    "rating": 5,
+    "keywords": [
+      "traditional",
+      "outfit",
+      "african",
+      "clothes"
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "gold-necklace-2",
+    "name": "Gold Necklace",
+    "price": 12000,
+    "category": "jewelry",
+    "image": "images/gold-necklace-2.jpg",
+    "rating": 5,
+    "keywords": [
+      "gold",
+      "necklace",
+      "jewelry",
+      "chain",
+      "accessories"
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "silver-necklace",
+    "name": "Silver Necklace",
+    "price": 10000,
+    "category": "jewelry",
+    "image": "images/silver-necklace.jpg",
+    "rating": 5,
+    "keywords": [
+      "silver",
+      "necklace",
+      "jewelry",
+      "chain",
+      "accessories"
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "pendant-necklace",
+    "name": "Pendant Necklace",
+    "price": 11000,
+    "category": "jewelry",
+    "image": "images/pendant-necklace.jpg",
+    "rating": 5,
+    "keywords": [
+      "pendant",
+      "necklace",
+      "jewelry",
+      "chain",
+      "accessories"
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "pearl-necklace",
+    "name": "Pearl Necklace",
+    "price": 15000,
+    "category": "jewelry",
+    "image": "images/pearl-necklace.jpg",
+    "rating": 5,
+    "keywords": [
+      "pearl",
+      "necklace",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 51,
+    "slug": "gold-bracelet-2",
+    "name": "Gold Bracelet",
+    "price": 10000,
+    "category": "jewelry",
+    "image": "images/gold-bracelet-2.jpg",
+    "rating": 5,
+    "keywords": [
+      "gold",
+      "bracelet",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "charm-bracelet",
+    "name": "Charm Bracelet",
+    "price": 9000,
+    "category": "jewelry",
+    "image": "images/charm-bracelet.jpg",
+    "rating": 5,
+    "keywords": [
+      "charm",
+      "bracelet",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "chain-bracelet",
+    "name": "Chain Bracelet",
+    "price": 8500,
+    "category": "jewelry",
+    "image": "images/chain-bracelet.jpg",
+    "rating": 4,
+    "keywords": [
+      "chain",
+      "bracelet",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "bangle",
+    "name": "Bangle",
+    "price": 7000,
+    "category": "jewelry",
+    "image": "images/bangle.jpg",
+    "rating": 5,
+    "keywords": [
+      "bangle",
+      "bracelet",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "stud-earrings",
+    "name": "Stud Earrings",
+    "price": 6000,
+    "category": "jewelry",
+    "image": "images/stud-earrings.jpg",
+    "rating": 5,
+    "keywords": [
+      "stud",
+      "earrings",
+      "earring",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "hoop-earrings",
+    "name": "Hoop Earrings",
+    "price": 7000,
+    "category": "jewelry",
+    "image": "images/hoop-earrings.jpg",
+    "rating": 5,
+    "keywords": [
+      "hoop",
+      "earrings",
+      "earring",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "drop-earrings",
+    "name": "Drop Earrings",
+    "price": 8000,
+    "category": "jewelry",
+    "image": "images/drop-earrings.jpg",
+    "rating": 5,
+    "keywords": [
+      "drop",
+      "earrings",
+      "earring",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 58,
+    "slug": "pearl-earrings",
+    "name": "Pearl Earrings",
+    "price": 9000,
+    "category": "jewelry",
+    "image": "images/pearl-earrings.jpg",
+    "rating": 5,
+    "keywords": [
+      "pearl",
+      "earrings",
+      "earring",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 59,
+    "slug": "gold-ring-2",
+    "name": "Gold Ring",
+    "price": 8500,
+    "category": "jewelry",
+    "image": "images/gold-ring-2.jpg",
+    "rating": 5,
+    "keywords": [
+      "gold",
+      "ring",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 60,
+    "slug": "silver-ring",
+    "name": "Silver Ring",
+    "price": 7500,
+    "category": "jewelry",
+    "image": "images/silver-ring.jpg",
+    "rating": 5,
+    "keywords": [
+      "silver",
+      "ring",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 61,
+    "slug": "fashion-ring",
+    "name": "Fashion Ring",
+    "price": 6500,
+    "category": "jewelry",
+    "image": "images/fashion-ring.jpg",
+    "rating": 5,
+    "keywords": [
+      "fashion",
+      "ring",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 62,
+    "slug": "couple-ring",
+    "name": "Couple Ring",
+    "price": 12000,
+    "category": "jewelry",
+    "image": "images/couple-ring.jpg",
+    "rating": 5,
+    "keywords": [
+      "couple",
+      "ring",
+      "wedding",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 63,
+    "slug": "jewelry-set",
+    "name": "Jewelry Set",
+    "price": 20000,
+    "category": "jewelry",
+    "image": "images/jewelry-set.jpg",
+    "rating": 5,
+    "keywords": [
+      "jewelry",
+      "set",
+      "necklace",
+      "earrings",
+      "accessories"
+    ]
+  },
+  {
+    "id": 64,
+    "slug": "anklet",
+    "name": "Anklet",
+    "price": 6000,
+    "category": "jewelry",
+    "image": "images/anklet.jpg",
+    "rating": 5,
+    "keywords": [
+      "anklet",
+      "ankle",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 65,
+    "slug": "brooch",
+    "name": "Brooch",
+    "price": 5000,
+    "category": "jewelry",
+    "image": "images/brooch.jpg",
+    "rating": 5,
+    "keywords": [
+      "brooch",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 66,
+    "slug": "waist-chain",
+    "name": "Waist Chain",
+    "price": 9000,
+    "category": "jewelry",
+    "image": "images/waist-chain.jpg",
+    "rating": 5,
+    "keywords": [
+      "waist",
+      "chain",
+      "jewelry",
+      "accessories"
+    ]
+  },
+  {
+    "id": 67,
+    "slug": "sneakers",
+    "name": "Sneakers",
+    "price": 15000,
+    "category": "shoes",
+    "image": "images/sneakers.jpg",
+    "rating": 5,
+    "keywords": [
+      "sneakers",
+      "shoes",
+      "footwear",
+      "fashion"
+    ]
+  },
+  {
+    "id": 68,
+    "slug": "white-sneakers",
+    "name": "White Sneakers",
+    "price": 16000,
+    "category": "shoes",
+    "image": "images/white-sneakers.jpg",
+    "rating": 5,
+    "keywords": [
+      "white",
+      "sneakers",
+      "shoes",
+      "footwear",
+      "fashion"
+    ]
+  },
+  {
+    "id": 69,
+    "slug": "black-sneakers",
+    "name": "Black Sneakers",
+    "price": 16000,
+    "category": "shoes",
+    "image": "images/black-sneakers.jpg",
+    "rating": 5,
+    "keywords": [
+      "black",
+      "sneakers",
+      "shoes",
+      "footwear",
+      "fashion"
+    ]
+  },
+  {
+    "id": 70,
+    "slug": "running-shoes",
+    "name": "Running Shoes",
+    "price": 18000,
+    "category": "shoes",
+    "image": "images/running-shoes.jpg",
+    "rating": 5,
+    "keywords": [
+      "running",
+      "sports",
+      "shoes",
+      "footwear"
+    ]
+  },
+  {
+    "id": 71,
+    "slug": "casual-shoes",
+    "name": "Casual Shoes",
+    "price": 14000,
+    "category": "shoes",
+    "image": "images/casual-shoes.jpg",
+    "rating": 4,
+    "keywords": [
+      "casual",
+      "shoes",
+      "footwear",
+      "fashion"
+    ]
+  },
+  {
+    "id": 72,
+    "slug": "loafers",
+    "name": "Loafers",
+    "price": 17000,
+    "category": "shoes",
+    "image": "images/loafers.jpg",
+    "rating": 5,
+    "keywords": [
+      "loafers",
+      "shoes",
+      "formal",
+      "footwear"
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "formal-shoes",
+    "name": "Formal Shoes",
+    "price": 20000,
+    "category": "shoes",
+    "image": "images/formal-shoes.jpg",
+    "rating": 5,
+    "keywords": [
+      "formal",
+      "shoes",
+      "office",
+      "footwear"
+    ]
+  },
+  {
+    "id": 74,
+    "slug": "high-heels",
+    "name": "High Heels",
+    "price": 18000,
+    "category": "shoes",
+    "image": "images/high-heels.jpg",
+    "rating": 5,
+    "keywords": [
+      "high heels",
+      "heels",
+      "shoes",
+      "women",
+      "fashion"
+    ]
+  },
+  {
+    "id": 75,
+    "slug": "sandals",
+    "name": "Sandals",
+    "price": 10000,
+    "category": "shoes",
+    "image": "images/sandals.jpg",
+    "rating": 5,
+    "keywords": [
+      "sandals",
+      "shoes",
+      "footwear",
+      "fashion"
+    ]
+  },
+  {
+    "id": 76,
+    "slug": "slippers",
+    "name": "Slippers",
+    "price": 7000,
+    "category": "shoes",
+    "image": "images/slippers.jpg",
+    "rating": 4,
+    "keywords": [
+      "slippers",
+      "shoes",
+      "footwear",
+      "casual"
+    ]
+  },
+  {
+    "id": 77,
+    "slug": "boots",
+    "name": "Boots",
+    "price": 22000,
+    "category": "shoes",
+    "image": "images/boots.jpg",
+    "rating": 5,
+    "keywords": [
+      "boots",
+      "shoes",
+      "footwear",
+      "fashion"
+    ]
+  },
+  {
+    "id": 78,
+    "slug": "sports-shoes",
+    "name": "Sports Shoes",
+    "price": 19000,
+    "category": "shoes",
+    "image": "images/sports-shoes.jpg",
+    "rating": 5,
+    "keywords": [
+      "sports",
+      "shoes",
+      "sneakers",
+      "footwear"
+    ]
+  }
+]

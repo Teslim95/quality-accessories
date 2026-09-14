@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Shop fashionable men's and women's clothes at Quality Events, Accessories, and Services."
+    >
+
+    <title>
+        Quality Events, Accessories, and Services | Clothes
+    </title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header>
+
+        <div class="navbar">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="logo-container"
+            >
+
+                <img
+                    src="images/quality-accessories-logo.png"
+                    alt="Quality Events, Accessories, and Services Logo"
+                    class="site-logo"
+                >
+
+                <span class="logo-text">
+                    Quality Events, Accessories, and Services
+                </span>
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav>
+
+                <a href="index.html">
+                    🏠 Home
+                </a>
+
+                <a href="shop.html">
+                    🛍️ Shop
+                </a>
+
+                <a href="jewelry.html">
+                    💎 Jewelry
+                </a>
+
+                <a
+                    href="clothes.html"
+                    class="active"
+                >
+                    👕 Clothes
+                </a>
+
+                <a href="events.html">
+                    🎉 Events
+                </a>
+
+                <a href="services.html">
+                    🛠️ Services
+                </a>
+
+                <a href="cart.html">
+                    🛒 Cart
+
+                    <span
+                        id="cart-count"
+                        class="cart-count"
+                    >
+                        0
+                    </span>
+
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         SEARCH BAR
+    ====================================================== -->
+
+    <section class="search-section">
+
+        <div class="search-container">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+
+            <input
+                type="search"
+                id="clothes-search"
+                placeholder="Search for clothes, shirts, trousers, dresses..."
+                autocomplete="off"
+            >
+
+
+            <button
+                type="button"
+                onclick="searchClothesPage()"
+            >
+                Search
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PAGE INDICATOR
+    ====================================================== -->
+
+    <div class="page-indicator">
+
+        🏠 Home
+
+        <span>
+            / 👕 Clothes
+        </span>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             PAGE TITLE
+        ================================================== -->
+
+        <div class="section-title">
+
+            <h2>
+                👕 Fashion Collection
+            </h2>
+
+            <p>
+                Discover stylish clothing for different
+                occasions, styles and personalities.
+            </p>
+
+        </div>
+
+
+
+        <!-- =================================================
+             CLOTHING CATEGORIES
+        ================================================== -->
+
+        <div class="shop-controls">
+
+
+            <button
+                type="button"
+                class="category-filter active"
+                onclick="showClothesCategory('all', this)"
+            >
+                ✨ All Clothes
+            </button>
+
+
+            <button
+                type="button"
+                class="category-filter"
+                onclick="showClothesCategory('shirts', this)"
+            >
+                👔 Shirts
+            </button>
+
+
+            <button
+                type="button"
+                class="category-filter"
+                onclick="showClothesCategory('tshirt', this)"
+            >
+                👕 T-Shirts
+            </button>
+
+
+            <button
+                type="button"
+                class="category-filter"
+                onclick="showClothesCategory('dress', this)"
+            >
+                👗 Dresses
+            </button>
+
+
+            <button
+                type="button"
+                class="category-filter"
+                onclick="showClothesCategory('trousers', this)"
+            >
+                👖 Trousers
+            </button>
+
+
+            <button
+                type="button"
+                class="category-filter"
+                onclick="showClothesCategory('top', this)"
+            >
+                👚 Tops
+            </button>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             SEARCH RESULT MESSAGE
+        ================================================== -->
+
+        <div
+            id="clothes-search-message"
+            class="search-result-message"
+        >
+        </div>
+
+
+
+        <!-- =================================================
+             CLOTHES PRODUCTS
+             JAVASCRIPT INSERTS PRODUCTS HERE
+        ================================================== -->
+
+        <div
+            id="clothes-products"
+            class="product-grid"
+        >
+
+            <!-- Products will be inserted by JavaScript -->
+
+        </div>
+
+
+
+        <!-- =================================================
+             SHOPPING INFORMATION
+        ================================================== -->
+
+        <div class="shop-information">
+
+
+            <!-- DELIVERY -->
+
+            <div class="shop-info-card">
+
+                <div class="shop-info-icon">
+                    🚚
+                </div>
+
+                <h3>
+                    Easy Delivery
+                </h3>
+
+                <p>
+                    Choose your favourite clothing items
+                    and proceed to checkout.
+                </p>
+
+            </div>
+
+
+
+            <!-- QUALITY -->
+
+            <div class="shop-info-card">
+
+                <div class="shop-info-icon">
+                    ✨
+                </div>
+
+                <h3>
+                    Quality Fashion
+                </h3>
+
+                <p>
+                    Explore different styles for men and
+                    women in one place.
+                </p>
+
+            </div>
+
+
+
+            <!-- SHOPPING -->
+
+            <div class="shop-info-card">
+
+                <div class="shop-info-icon">
+                    🔒
+                </div>
+
+                <h3>
+                    Secure Shopping
+                </h3>
+
+                <p>
+                    Add products to your cart and review
+                    your order before checkout.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             CALL TO SHOP
+        ================================================== -->
+
+        <div class="section-title">
+
+            <h2>
+                🛍️ Looking for Something Else?
+            </h2>
+
+            <p>
+                Explore our jewelry, bags, shoes and other
+                accessories.
+            </p>
+
+
+            <br>
+
+
+            <a
+                href="shop.html"
+                class="btn"
+            >
+                Explore All Products
+            </a>
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <h3>
+            Quality Events, Accessories, and Services
+        </h3>
+
+
+        <p>
+            Quality fashion, jewelry, bags, shoes and
+            services for everyone.
+        </p>
+
+
+        <!-- FOOTER LINKS -->
+
+        <div class="footer-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="shop.html">
+                Shop
+            </a>
+
+            <a href="jewelry.html">
+                Jewelry
+            </a>
+
+            <a href="clothes.html">
+                Clothes
+            </a>
+
+            <a href="events.html">
+                Events
+            </a>
+
+            <a href="services.html">
+                Services
+            </a>
+
+            <a href="cart.html">
+                Cart
+            </a>
+
+        </div>
+
+
+        <p>
+            © 2026 Quality Events, Accessories, and Services.
+            All rights reserved.
+        </p>
+
+
+        <p>
+            Shop Smart. Live Stylish. ✨
+        </p>
+
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         MAIN JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+
+
+    <!-- =====================================================
+         CLOTHES PAGE SEARCH & FILTER
+    ====================================================== -->
+
+    <script>
+
+        /* =====================================================
+           CLOTHES SEARCH
+        ===================================================== */
+
+        function searchClothesPage() {
+
+            const searchInput =
+                document.getElementById("clothes-search");
+
+            const searchMessage =
+                document.getElementById("clothes-search-message");
+
+            const searchText =
+                String(searchInput.value || "")
+                    .toLowerCase()
+                    .trim();
+
+
+            // If search box is empty
+            if (searchText === "") {
+
+                loadClothesProducts();
+
+                searchMessage.textContent = "";
+
+                // Make All Clothes active
+                document
+                    .querySelectorAll(".shop-controls .category-filter")
+                    .forEach(button => {
+                        button.classList.remove("active");
+                    });
+
+                const allButton =
+                    document.querySelector(
+                        ".shop-controls .category-filter:first-child"
+                    );
+
+                if (allButton) {
+                    allButton.classList.add("active");
+                }
+
+                return;
+            }
+
+
+            // Get only clothes
+            const clothesProducts =
+                products.filter(
+                    product => product.category === "clothes"
+                );
+
+
+            // Search clothes
+            const results =
+                clothesProducts.filter(product => {
+
+                    const name =
+                        String(product.name || "").toLowerCase();
+
+                    const category =
+                        String(product.category || "").toLowerCase();
+
+                    const slug =
+                        String(product.slug || "").toLowerCase();
+
+                    const keywords =
+                        Array.isArray(product.keywords)
+                            ? product.keywords.join(" ").toLowerCase()
+                            : "";
+
+                    return (
+                        name.includes(searchText) ||
+                        category.includes(searchText) ||
+                        slug.includes(searchText) ||
+                        keywords.includes(searchText)
+                    );
+
+                });
+
+
+            // Display results
+            displayProducts(
+                results,
+                "clothes-products"
+            );
+
+
+            // Show result message
+            if (results.length === 0) {
+
+                searchMessage.textContent =
+                    `No clothes found for "${searchText}".`;
+
+            } else {
+
+                searchMessage.textContent =
+                    `${results.length} clothing product(s) found for "${searchText}".`;
+
+            }
+
+
+            // Remove active state from filters
+            document
+                .querySelectorAll(".shop-controls .category-filter")
+                .forEach(button => {
+                    button.classList.remove("active");
+                });
+
+        }
+
+
+
+        /* =====================================================
+           ENTER KEY SEARCH
+        ===================================================== */
+
+        const clothesSearchInput =
+            document.getElementById("clothes-search");
+
+        if (clothesSearchInput) {
+
+            clothesSearchInput.addEventListener(
+                "keydown",
+                function(event) {
+
+                    if (event.key === "Enter") {
+
+                        event.preventDefault();
+
+                        searchClothesPage();
+
+                    }
+
+                }
+            );
+
+        }
+
+
+
+        /* =====================================================
+           CLOTHES CATEGORY FILTER
+        ===================================================== */
+
+        function showClothesCategory(
+            category,
+            clickedButton
+        ) {
+
+
+            // Remove active class from all
+            // CLOTHES filter buttons only
+
+            document
+                .querySelectorAll(".shop-controls .category-filter")
+                .forEach(button => {
+
+                    button.classList.remove("active");
+
+                });
+
+
+            // Add active class to clicked button
+
+            if (clickedButton) {
+
+                clickedButton.classList.add("active");
+
+            }
+
+
+            // Clear search box
+
+            const searchInput =
+                document.getElementById("clothes-search");
+
+            if (searchInput) {
+
+                searchInput.value = "";
+
+            }
+
+
+            // Clear search message
+
+            const searchMessage =
+                document.getElementById("clothes-search-message");
+
+            if (searchMessage) {
+
+                searchMessage.textContent = "";
+
+            }
+
+
+            // Get all clothes products
+
+            const clothesProducts =
+                products.filter(
+                    product => product.category === "clothes"
+                );
+
+
+            let filteredProducts;
+
+
+            /* =================================================
+               ALL CLOTHES
+            ================================================= */
+
+            if (category === "all") {
+
+                filteredProducts =
+                    clothesProducts;
+
+            }
+
+
+            /* =================================================
+               SHIRTS
+            ================================================= */
+
+            else if (category === "shirts") {
+
+                filteredProducts =
+                    clothesProducts.filter(product => {
+
+                        const name =
+                            product.name.toLowerCase();
+
+                        return (
+                            name.includes("shirt") &&
+                            !name.includes("t-shirt")
+                        );
+
+                    });
+
+            }
+
+
+            /* =================================================
+               T-SHIRTS
+            ================================================= */
+
+            else if (category === "tshirt") {
+
+                filteredProducts =
+                    clothesProducts.filter(product => {
+
+                        const name =
+                            product.name.toLowerCase();
+
+                        return (
+                            name.includes("t-shirt") ||
+                            name.includes("tshirt")
+                        );
+
+                    });
+
+            }
+
+
+            /* =================================================
+               DRESSES / GOWNS
+            ================================================= */
+
+            else if (category === "dress") {
+
+                filteredProducts =
+                    clothesProducts.filter(product => {
+
+                        const name =
+                            product.name.toLowerCase();
+
+                        return (
+                            name.includes("dress") ||
+                            name.includes("gown")
+                        );
+
+                    });
+
+            }
+
+
+            /* =================================================
+               TROUSERS / PANTS
+            ================================================= */
+
+            else if (category === "trousers") {
+
+                filteredProducts =
+                    clothesProducts.filter(product => {
+
+                        const name =
+                            product.name.toLowerCase();
+
+                        return (
+                            name.includes("trouser") ||
+                            name.includes("pant") ||
+                            name.includes("jeans") ||
+                            name.includes("shorts")
+                        );
+
+                    });
+
+            }
+
+
+            /* =================================================
+               TOPS
+            ================================================= */
+
+            else if (category === "top") {
+
+                filteredProducts =
+                    clothesProducts.filter(product => {
+
+                        const name =
+                            product.name.toLowerCase();
+
+                        return (
+                            name.includes("top") ||
+                            name.includes("blouse")
+                        );
+
+                    });
+
+            }
+
+
+            /* =================================================
+               FALLBACK
+            ================================================= */
+
+            else {
+
+                filteredProducts =
+                    clothesProducts;
+
+            }
+
+
+            // Display filtered products
+
+            displayProducts(
+                filteredProducts,
+                "clothes-products"
+            );
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>

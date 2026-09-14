@@ -1,0 +1,32 @@
+[
+  {
+    "id": "birthday",
+    "name": "Birthday Events",
+    "price": 50000,
+    "image": "images/birthday-event.jpg"
+  },
+  {
+    "id": "wedding",
+    "name": "Wedding Events",
+    "price": 150000,
+    "image": "images/wedding-event.jpg"
+  },
+  {
+    "id": "naming",
+    "name": "Naming Ceremony",
+    "price": 70000,
+    "image": "images/naming-ceremony.jpg"
+  },
+  {
+    "id": "graduation",
+    "name": "Graduation Events",
+    "price": 60000,
+    "image": "images/graduation-event.jpg"
+  },
+  {
+    "id": "anniversary",
+    "name": "Anniversary Events",
+    "price": 80000,
+    "image": "images/anniversary-event.jpg"
+  }
+]

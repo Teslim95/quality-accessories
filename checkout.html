@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quality Accessories | Checkout</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+   <header>
+
+        <div class="navbar">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="logo-container"
+            >
+
+                <img
+                    src="images/quality-accessories-logo.png"
+                    alt="Quality Events, Accessories, and Services Logo"
+                    class="site-logo"
+                >
+
+                <span class="logo-text">
+                    Quality Events, Accessories, and Services
+                </span>
+
+            </a>
+
+
+
+            <!-- NAVIGATION -->
+
+            <nav>
+    <a href="index.html">
+        🏠 Home
+    </a>
+
+    <a href="shop.html">
+        🛍️ Shop
+    </a>
+
+    <a href="jewelry.html">
+        💎 Jewelry
+    </a>
+
+    <a href="clothes.html">
+        👕 Clothes
+    </a>
+
+    <a href="events.html">
+        🎉 Events
+    </a>
+
+    <a href="services.html">
+        🛠️ Services
+    </a>
+
+    <a href="cart.html">
+        🛒 Cart
+        <span
+            id="cart-count"
+            class="cart-count"
+        >
+            0
+        </span>
+    </a>
+</nav>
+
+        </div>
+
+    </header>
+
+    <!-- =====================================================
+         BREADCRUMB
+    ====================================================== -->
+
+    <div class="breadcrumb">
+
+        <a href="index.html">🏠 Home</a>
+
+        <span>›</span>
+
+        <a href="cart.html">🛒 Cart</a>
+
+        <span>›</span>
+
+        <strong>💳 Checkout</strong>
+
+    </div>
+
+
+    <!-- =====================================================
+         CHECKOUT HERO
+    ====================================================== -->
+
+    <section class="checkout-header">
+
+        <div class="checkout-icon">
+            🔐
+        </div>
+
+        <h1>Secure Checkout</h1>
+
+        <p>
+            Complete your information and review your order
+            before placing it.
+        </p>
+
+    </section>
+
+
+    <!-- =====================================================
+         CHECKOUT CONTAINER
+    ====================================================== -->
+
+    <main class="checkout-container">
+
+
+        <!-- =================================================
+             CUSTOMER INFORMATION
+        ================================================== -->
+
+        <section class="checkout-card">
+
+            <div class="checkout-card-title">
+
+                <span>👤</span>
+
+                <div>
+                    <h2>Customer Information</h2>
+
+                    <p>
+                        Enter your details for delivery.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <form id="checkout-form">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="customer-name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="customer-name"
+                            placeholder="Enter your full name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="customer-phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="customer-phone"
+                            placeholder="08012345678"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="customer-email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="customer-email"
+                        placeholder="example@gmail.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="delivery-address">
+                        Delivery Address
+                    </label>
+
+                    <textarea
+                        id="delivery-address"
+                        rows="4"
+                        placeholder="Enter your complete delivery address"
+                        required
+                    ></textarea>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ORDER SUMMARY
+        ================================================== -->
+
+        <section class="checkout-card">
+
+            <div class="checkout-card-title">
+
+                <span>🛍️</span>
+
+                <div>
+
+                    <h2>Your Order</h2>
+
+                    <p>
+                        Review your selected products.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div id="checkout-items">
+
+                <!-- Products will appear here -->
+
+            </div>
+
+
+            <div class="checkout-total">
+
+                <span>Total Amount</span>
+
+                <strong id="checkout-total">
+                    ₦0
+                </strong>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PAYMENT METHOD
+        ================================================== -->
+
+        <section class="checkout-card">
+
+            <div class="checkout-card-title">
+
+                <span>💳</span>
+
+                <div>
+
+                    <h2>Payment Method</h2>
+
+                    <p>
+                        Choose how you would like to pay.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="payment-option">
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="payment-method"
+                        value="bank"
+                        checked
+                    >
+
+                    <span>
+                        🏦 Bank Transfer
+                    </span>
+
+                </label>
+
+            </div>
+
+
+            <!-- =================================================
+                 BANK DETAILS
+            ================================================== -->
+
+            <div class="bank-details">
+
+                <h3>🏦 Bank Transfer Details</h3>
+
+                <p>
+                    Please transfer the exact order amount
+                    to the account below.
+                </p>
+
+
+                <div class="bank-detail-row">
+
+                    <span>Bank Name</span>
+
+                    <strong>
+                        Moniepoint Bank
+                    </strong>
+
+                </div>
+
+
+                <div class="bank-detail-row">
+
+                    <span>Account Name</span>
+
+                    <strong>
+                        Quantity Services
+                    </strong>
+
+                </div>
+
+
+                <div class="bank-detail-row">
+
+                    <span>Account Number</span>
+
+                    <strong>
+                        8033331100
+                    </strong>
+
+                </div>
+
+
+                <div class="payment-warning">
+
+                    ⚠️
+                    <span>
+                        Replace the bank name and account number
+                        above with your real business account
+                        details before publishing the website.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PLACE ORDER
+        ================================================== -->
+
+        <section class="checkout-card place-order-card">
+
+            <div class="secure-message">
+
+                🔒
+                <div>
+
+                    <strong>
+                        Your information is secure
+                    </strong>
+
+                    <p>
+                        Please confirm your information before
+                        placing your order.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                type="submit"
+                form="checkout-form"
+                class="place-order-btn"
+            >
+
+                <i class="fa-solid fa-check"></i>
+
+                Place Order
+
+            </button>
+
+
+            <a
+                href="cart.html"
+                class="back-cart-btn"
+            >
+
+                ← Back to Cart
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="main-footer">
+
+        <h3>Quality Accessories</h3>
+
+        <p>
+            Quality fashion, jewelry, bags and accessories
+            for everyone.
+        </p>
+
+        <p>
+            © 2026 Quality Accessories. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+
+    <script>
+const checkoutCart = JSON.parse(localStorage.getItem("teslimCart")) || [];
+
+// Format Nigerian Naira
+function checkoutMoney(amount) {
+    return "₦" + Number(amount).toLocaleString("en-NG");
+}
+
+// Display checkout items
+function displayCheckoutItems() {
+    const container = document.getElementById("checkout-items");
+    const totalElement = document.getElementById("checkout-total");
+
+    if (!container || !totalElement) return;
+
+    if (checkoutCart.length === 0) {
+        container.innerHTML = `
+            <p style="text-align:center; padding:20px;">
+                Your cart is empty.
+            </p>
+        `;
+
+        totalElement.textContent = checkoutMoney(0);
+        return;
+    }
+
+    let total = 0;
+
+    container.innerHTML = checkoutCart.map(item => {
+        const quantity = Number(item.quantity) || 1;
+        const price = Number(item.price) || 0;
+        const itemTotal = price * quantity;
+
+        total += itemTotal;
+
+        return `
+            <div class="checkout-item">
+                <div>
+                    <strong>${item.name}</strong>
+                    <span> × ${quantity}</span>
+                </div>
+
+                <strong>${checkoutMoney(itemTotal)}</strong>
+            </div>
+        `;
+    }).join("");
+
+    totalElement.textContent = checkoutMoney(total);
+}
+
+
+// Update cart count in header
+function updateCheckoutCartCount() {
+    const cartCountElement = document.getElementById("cart-count");
+
+    if (!cartCountElement) return;
+
+    const count = checkoutCart.reduce(
+        (total, item) => total + (Number(item.quantity) || 0),
+        0
+    );
+
+    cartCountElement.textContent = count;
+}
+
+
+// Submit order to backend
+document.getElementById("checkout-form").addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    // Make sure cart isn't empty
+    if (checkoutCart.length === 0) {
+        alert("Your cart is empty. Please add products before checking out.");
+        return;
+    }
+
+    // Get customer information
+    const name = document.getElementById("customer-name").value.trim();
+    const phone = document.getElementById("customer-phone").value.trim();
+    const email = document.getElementById("customer-email").value.trim();
+    const address = document.getElementById("delivery-address").value.trim();
+
+    // Get selected payment method
+    const selectedPayment = document.querySelector(
+        'input[name="payment-method"]:checked'
+    );
+
+    const paymentMethod = selectedPayment
+        ? selectedPayment.value
+        : "bank_transfer";
+
+    // Prepare items for backend
+    // Only send ID and quantity.
+    // The backend will get the real prices from products.json.
+    const items = checkoutCart.map(item => ({
+        id: Number(item.id),
+        quantity: Number(item.quantity)
+    }));
+
+    const orderData = {
+        customer: {
+            name: name,
+            phone: phone,
+            email: email,
+            address: address
+        },
+        items: items,
+        paymentMethod: paymentMethod
+    };
+
+    // Find the button
+    const submitButton = document.querySelector(".place-order-btn");
+
+    // Prevent double submission
+    if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = "⏳ Processing Order...";
+    }
+
+    try {
+        const response = await fetch("/api/orders", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(orderData)
+        });
+
+        const result = await response.json();
+
+        // Backend rejected the order
+        if (!response.ok) {
+            throw new Error(
+                result.message || "Unable to create your order."
+            );
+        }
+
+        // Order successfully created
+        const reference = result.order?.reference || "N/A";
+        const total = result.order?.total || 0;
+
+        // Remove cart after successful order
+        localStorage.removeItem("teslimCart");
+
+        // Show confirmation
+        alert(
+            "Order received successfully! 🎉\n\n" +
+            "Order Reference: " + reference + "\n" +
+            "Total: " + checkoutMoney(total) + "\n\n" +
+            "Your order is currently pending payment.\n" +
+            "Please complete the bank transfer using the payment details shown on this page."
+        );
+
+        // Redirect to cart page
+        window.location.href = "cart.html";
+
+    } catch (error) {
+        console.error("Order submission error:", error);
+
+        alert(
+            "Sorry, your order could not be submitted.\n\n" +
+            error.message +
+            "\n\nPlease check your information and try again."
+        );
+
+        // Enable button again
+        if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = "💳 Place Order";
+        }
+    }
+});
+
+
+// Load checkout page
+displayCheckoutItems();
+updateCheckoutCartCount();
+</script>
+</body>
+</html>
