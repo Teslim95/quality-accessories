@@ -95,6 +95,6 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: 'Unexpected server error.' });
 });
 
-app.listen(PORT, () =>
-  console.log(`Quality Accessories running at http://localhost:${PORT}`)
+app.listen(PORT, '0.0.0.0', () =>
+  console.log(`Quality Accessories running on port ${PORT}`)
 );
